@@ -1,108 +1,53 @@
-// /**
-//  * EXAMPLE 1 - Variable Declaration.
-//  */
-
-// var a;
-
-// console.log( a );
-// // console.log( b );
-// // Uncaught ReferenceError: b is not defined
-
-// let c;
-
-// console.log( c );
-
-// // const d;
-// // Uncaught SyntaxError: Missing initializer in const declaration;
-
-// /**
-//  * EXAMPLE 2 - "let"
-//  */
-
-// let myNumber = 10;
-
-// console.log( myNumber );
-
-// // declaration
-// let myString;
-
-// // assignment
-// myString = "hello from string";
-
-// console.log( myString );
-
-// // reassignment
-// myString = "New value for my String."
-
-// console.log(myString)
-
-
-/**
- * EXAMPLE 3 - "var"
- */
-
-// 
-
-
-// 
-
-/**
- * CHALLENGE 2
- */
-
-// // let myObject = {
-// //   x: 10,
-// //   y: true
-// // };
-
-// let x = 10;
-// const y = true;
-// const myObject = {
-//   a: x,
-//   b: y
+// const myCity = {
+//   city: "New York",
+//   pupular: true,
+//   country: "USA"
 // };
 
-// console.log( myObject );
+// console.log( myCity );
 
-// x = 20;
-// let anotherObject;
-// anotherObject = {
-//   newA: x,
-//   b: y,
-//   c: myObject
-// };
+// console.log( myCity.city );
 
-// console.log( anotherObject );
+// console.log( myCity.pupular );
 
-/**
-// NOTE JS를 dynamic type language라 부르는 이유는 
- * x=10으로 할당한 변수 x에 x=true로 data type을 바꾸어도 상관없기(에러가 안난다.) 때문이다.
- */
-// let myVariable;
-// console.log( myVariable );
+// myCity.city = "Las Vegas";
 
-// myVariable = 10;
-// console.log( myVariable );
+// console.log( myCity );
 
-// myVariable = true;
-// console.log( myVariable );
+// delete myCity.country;
 
-// myVariable = {
-//   x: true,
-//   y: 10
-// }
-// console.log(myVariable)
+// console.log( myCity );
 
-let myVar;
-myVar = null;
-console.log( myVar );
+// NOTE 중요 중요.. property 를 insert할 때 square bracket notation 사용.
+// myCity[ 'country' ] = "Los Angeles";
 
-myVar = 15;
-console.log( myVar );
+// console.log( myCity );
 
-myVar = false;
-console.log( myVar );
+// NOTE 중요 중요.. property 를 insert할 때 square bracket notation 사용.
+// const countryPropertyName = "country";
+// myCity[ countryPropertyName ] = "Korea";
 
+// console.log( myCity );
+
+
+// NOTE squar bracket을 사용할 때와 '.(dot)'을 사용할 때
+
+const myCity = {
+  city: "New Yori",
+  info: {
+    popular: true,
+    country: "USA"
+  }
+};
+
+console.log( myCity.info.popular);
+
+delete myCity.info["popular"]
+// delete myCity.info["popular"]
+// delete myCity.info.popular
+// NOTE 위의 2가지는 차이 없음.
+
+console.log(myCity)
 
 
 
