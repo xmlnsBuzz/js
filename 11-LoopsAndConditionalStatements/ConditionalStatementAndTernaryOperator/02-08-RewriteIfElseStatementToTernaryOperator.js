@@ -15,11 +15,11 @@ console.log(emptyArray( [ ] ));
 // ANSWER return to Ternary Operator
 function emptyArray ( inputArray ) {
   return inputArray > 0
-  ? "Array is not empty"
-  : "Array is empty"
+    ? "Array is not empty"
+    : "Array is empty";
 }
 
-console.log(emptyArray( [1 ] ));
+console.log( emptyArray( [ 1 ] ) );
 
 
 
