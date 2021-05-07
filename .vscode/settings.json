@@ -5,11 +5,11 @@
 
     {
       "tag": "!",
-      "color": "#FF2D00",
+      "color": "#FF8C00",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
-      "bold": false,
+      "bold": true,
       "italic": false
     },
     {
@@ -24,7 +24,7 @@
     {
       "tag": "//",
       "color": "#9954ed",
-      "strikethrough": true,
+      "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
@@ -32,7 +32,7 @@
     },
     {
       "tag": "todo",
-      "color": "#FF8C00",
+      "color": "#FF2D00",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -41,12 +41,15 @@
     },
     {
       "tag": "*",
-      "color": "#98C379",
+      "color": "#d48c8c",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
     }
+  ],
+  "cSpell.words": [
+    "Qnty"
   ]
 }
