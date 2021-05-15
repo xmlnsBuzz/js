@@ -1,4 +1,5 @@
-const createButton = (title) => { // ? (title)처럼 parameter가 하나일 때,  parenthesis는 option이다.
+const createButton = ( title ) => {
+  // ? (title)처럼 parameter가 하나일 때,  parenthesis는 option이다.
   const btn = document.createElement( "button" );
   let clicksQnty = 0;
   let clicksCon = 0;

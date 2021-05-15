@@ -30,10 +30,10 @@
 // console.log( myCity );
 
 
-// NOTE squar bracket을 사용할 때와 '.(dot)'을 사용할 때
+// NOTE square bracket을 사용할 때와 '.(dot)'을 사용할 때
 
 const myCity = {
-  city: "New Yori",
+  city: "New York",
   info: {
     popular: true,
     country: "USA"
