@@ -56,7 +56,7 @@ const quantityByCategories = products =>
       // ? counts[ product.category ] 가 없을 경우 '0'으로 초기화.
       // ! 속은 callback function, 
       // ! counts -> array accumulator,
-      // !product -> products's element object
+      // ! product -> products's element object
 
 
       return counts;
