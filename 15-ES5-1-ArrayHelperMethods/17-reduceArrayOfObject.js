@@ -52,3 +52,4 @@ const popularPostsIds = ( posts, minimalCommentsQty ) =>
 
 // @ts-ignore
 console.log( popularPostsIds( posts, minimalCommentsQty ) ); // [3421, 8135]
+
